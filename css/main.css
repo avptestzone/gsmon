@@ -1,0 +1,303 @@
+body {
+    margin:0 8px;
+}
+#main {
+    width:1245px;
+}
+
+#left_column {
+    width:80%; 
+    height:100%;
+    float: left;	
+}
+#right_column {
+	width:20%;
+	height:100%;
+    float:left;	
+	margin-top:5px;
+}
+
+#points {
+    height:40px;
+	color:#fff;
+}
+
+#monitor {
+   width: 998px;
+   border: 1px solid;
+}
+
+.mux {
+    background: #66ff00;
+    overflow: auto;
+}
+.mtop {
+    float:left;
+    border: 1px solid white;
+}
+
+.mname{
+    width: 255px;
+    float:left;
+    text-align: center;
+}
+
+.mstatus{
+    width: 680px;
+    float:left;
+    text-align: center;
+    border-left:1px solid white;
+    border-right: 1px solid white;
+}
+
+.mstatus span {
+    display: block;
+    height: 25px;
+    padding-top: 2px;
+}
+
+.mscan{
+    float:left;
+    margin: 1px 0 0 2px;
+}
+
+.scan_button {
+    margin-left: 2px;
+}
+
+.mexpand{
+    width: 30px;
+    float:left;
+    cursor: pointer;
+    padding: 2px 0 0 1px;
+}
+
+.mexpand img {
+    
+}
+
+.mux_info {
+    padding: 3px 0;
+    clear: both;
+    text-align: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.mux_info span {
+    margin: 0 5px;
+}
+
+.mux_info div {
+    display: inline;
+}
+
+.thumbnails { 
+    overflow: auto;
+    border:1px solid white;
+} 
+    
+.thumb  { 
+    position: relative;
+    float:left; 
+    margin: 4px;
+}
+
+.thumb img {
+    cursor: pointer;
+}
+
+.thumb span {
+    display: block;
+    text-align: center;
+} 
+
+.aspect {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    top:0;
+    left:200px;
+    color:white;
+}
+
+.epg {
+    display: inline;
+    color: white;
+}
+
+.delete_channel {
+    position: absolute;
+    top:0;
+    left: 200px;
+}
+
+#user {
+   height:40px;
+}
+
+#user img {
+    margin:4px 0;
+}
+
+#buttons {
+	padding:30px 40px 20px 40px;
+}
+
+.row_of_buttons {
+    margin-bottom:10px;
+	text-align:center;
+}
+
+.row_of_buttons img {
+    margin:0 10px;
+	cursor:pointer;
+}
+
+.forms {
+    border:1px solid;
+    margin-top:10px;
+    padding: 10px 10px;
+    text-align: left;
+    font-size: 13px;
+    position: relative;
+}
+
+.forms input {
+    margin: 1px 0; 
+    width: 58px;
+}
+
+.forms img {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.forms select {
+    width: 80px;
+}
+
+#shift_line {
+    margin-bottom:5px;
+}
+
+
+.light {
+   cursor:default;
+}
+
+#data_box {
+    position:fixed;
+    margin-left: 35px;
+    height:65%;
+    display: none;
+}
+
+#triger_box {
+    text-align: center;
+}
+
+#triger_box img {
+    cursor:pointer;
+}
+
+.current_point {
+    background:#213343;
+	margin:5px 1px;
+	text-align:center; 
+    font-size:25px;
+	width:20%;
+	float:left;
+    cursor: pointer;
+}
+
+.point {
+    background:#213343;
+	text-align:center;
+	margin:15px 1px 0;
+    width:10%;
+	float:left;
+    cursor: pointer;
+}
+
+#greeting {
+    text-align:center;
+    width:200px;
+	float:left;
+}
+
+#overlay {
+    z-index: 3; 
+    position: fixed; 
+    background-color: #000; 
+    opacity: 0.8; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    cursor: pointer;
+    display: none;
+}
+
+#wrapp {
+    width: 800px; 
+    height: 600px; 
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #fff;
+    position: fixed; 
+    top: 45%; 
+    left: 50%; 
+    margin-top: -300px;
+    margin-left: -450px; 
+    display: none; 
+    opacity: 0; 
+    z-index: 5; 
+    padding: 20px 20px;
+    overflow: scroll;
+}
+
+#close_window {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+#wrapp table,td {
+    border: 1px solid black;
+} 
+
+.change_value {
+    display: inline;
+}
+
+.even {
+   border:0;
+   background: #BBCCFF;
+   text-align: center;
+}
+
+.odd {
+   border:0;
+   background: #E1E7EC;
+   text-align: center;
+}
+
+#alarm_table th {
+   background: #CED7DF;
+}
+
+.sham{
+    display: inline;
+}
+
+.del_sham {
+    position:absolute;
+    right: 5px;
+    top:5px;
+}

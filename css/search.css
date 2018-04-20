@@ -1,0 +1,35 @@
+.search_obj {
+	position: relative;
+	margin:5px;
+	width: 250px;
+	border-right:2px solid;
+	border-left:2px solid;
+	border-top:2px solid;
+	border-bottom:2px solid;
+	text-align: center;
+	padding-top: 5px;
+	float:left;
+}
+
+.button {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+.closed {
+    display:none;
+}
+
+.opened {
+	display:block;
+	position: absolute;
+	left: -2px;
+	top:170px;
+	border-right:2px solid;
+	border-left:2px solid;
+	border-bottom:2px solid;
+	width: 250px;
+    z-index: 5;
+    background: white;
+}

@@ -1,0 +1,50 @@
+
+.disnone {display:none;}
+col {overflow:hidden !important;}
+
+.sortable {clear:both; border-collapse:collapse; }
+.sortable td, .sortable th {border:1px solid #999; padding:0 .3em;}
+/* font-size:13px;*/
+.sortable .even {background-color:#f0f0f0;} 
+.sortable .odd {background-color:#fff;} 
+.sortable tbody tr:hover {background-color:#eef;}
+.sortable thead {cursor:pointer;}
+
+/* arrows */
+.c_0_c td, .c_0_c th { 
+ background-image:url(image/c1.gif); 
+ background-repeat:no-repeat; 
+ background-position:right center; 
+}
+
+.c_0_c .d_1_d { background-image:url(image/d1.gif); font-style:italic; }
+.c_0_c .d_2_d { background-image:url(image/d2.gif); font-style:italic; }
+.c_0_c .d_3_d { background-image:url(image/d3.gif); font-style:italic; }
+.c_0_c .d_4_d { background-image:url(image/d4.gif); font-style:italic; }
+.c_0_c .d_5_d { background-image:url(image/d5.gif); font-style:italic; }
+.c_0_c .d_6_d { background-image:url(image/d6.gif); font-style:italic; }
+.c_0_c .d_7_d { background-image:url(image/d7.gif); font-style:italic; }
+.c_0_c .d_8_d { background-image:url(image/d8.gif); font-style:italic; }
+.c_0_c .d_9_d { background-image:url(image/d9.gif); font-style:italic; }
+.c_0_c .d_10_d { background-image:url(image/d10.gif); font-style:italic; }
+
+
+.c_0_c .u_1_u { background-image:url(image/u1.gif); font-style:italic; }
+.c_0_c .u_2_u { background-image:url(image/u2.gif); font-style:italic; }
+.c_0_c .u_3_u { background-image:url(image/u3.gif); font-style:italic; }
+.c_0_c .u_4_u { background-image:url(image/u4.gif); font-style:italic; }
+.c_0_c .u_5_u { background-image:url(image/u5.gif); font-style:italic; }
+.c_0_c .u_6_u { background-image:url(image/u6.gif); font-style:italic; }
+.c_0_c .u_7_u { background-image:url(image/u7.gif); font-style:italic; }
+.c_0_c .u_8_u { background-image:url(image/u8.gif); font-style:italic; }
+.c_0_c .u_9_u { background-image:url(image/u9.gif); font-style:italic; }
+.c_0_c .u_10_u { background-image:url(image/u10.gif); font-style:italic; }
+
+#log {overflow: scroll; width: 910px; float: left; height: 100%; margin-right: 10px;}
+/*#comment {height: 25px; width: 100%}*/
+
+#monitor div {margin-left: 40px;
+              float:left;
+}
+
+#monitor img {display: block; margin-bottom: 5px;}

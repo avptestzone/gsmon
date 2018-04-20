@@ -1,0 +1,20 @@
+#auth {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+#auth form {
+    position:relative;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 5px 30px;
+    background: blanchedalmond;    
+}
+#auth label {
+    display: inline;
+}
+
+#auth input {
+    position: absolute; 
+    right: 10%;
+}
